@@ -1,0 +1,45 @@
+body,
+html {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+h1 {
+  font-size: 18px;
+  line-height: 26px;
+}
+
+p {
+  font-size: 12px;
+}
+
+.message {
+  width: 430px;
+  padding: 1rem;
+  margin: 0 auto;
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+}
+
+.message>div {
+  flex-direction: column;
+}
+
+#logo {
+  max-height: 4rem;
+  margin: .5rem;
+  text-align: center;
+  padding: 1rem;
+}
